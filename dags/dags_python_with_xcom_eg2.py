@@ -23,7 +23,7 @@ with DAG(
 
     @task(task_id='python_xcom_pull_2')
     def xcom_pull_2(status, **kwargs):
-        print('함수 입력값으로 받은 값:' + status)
+        print('함수 입력값으로 받은 값  :' + status)
 
 
     python_xcom_push_by_return = xcom_push_result()
